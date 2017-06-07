@@ -34,6 +34,16 @@ int main() { /*这里没有主函数名称的 -> 这里输入我们的主函数*/
      * C语言规范，标识符可以是字母(A~Z，a~z)、数字(0~9)、下划线_组成的字符串
      * 并且第一个字符必须是字母或下划线。
      */
+    int age = 15;
+    int height = 162;
+    float weight = 82.5;
+    char isFat = 'y';
+    printf("年龄: %d 岁\n", age);
+    printf("身高: %d 厘米\n", height);
+    printf("体重: %f 千克\n", weight);
+    printf("是否属于肥胖儿童: %c\n",isFat);
+    
     return 0;
+
 }
 
