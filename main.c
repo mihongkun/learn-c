@@ -42,7 +42,14 @@ int main() { /*这里没有主函数名称的 -> 这里输入我们的主函数*/
     printf("身高: %d 厘米\n", height);
     printf("体重: %f 千克\n", weight);
     printf("是否属于肥胖儿童: %c\n",isFat);
-    
+
+    int xAge = 18;
+    float xHeight = 1.85;
+    char xUnit = 'M';
+    printf("小明今年%d岁\n",xAge);
+    printf("小明的身高%.2f%c\n",xHeight,xUnit);
+    printf("小明现在在慕课网上学习IT技术\n");
+
     return 0;
 
 }
