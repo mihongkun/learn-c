@@ -53,6 +53,18 @@ int main() { /*这里没有主函数名称的 -> 这里输入我们的主函数*/
     printf("小明现在在慕课网上学习IT技术\n");
 
     printf("小明今天又得到了%d元零花钱\n",POCKETMONEY);
+
+    char char_c = 'a';
+    int int_n = char_c;
+    float float_f = int_n;
+    double double_d = float_f;
+    printf("char_c = %c\n",char_c);
+    printf("int_n = %d\n",int_n);
+    printf("float_f = %.2f\n",float_f);
+    printf("double_d = %lf\n",double_d);
+    
+
+
     return 0;
 
 }
