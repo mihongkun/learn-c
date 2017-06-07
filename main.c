@@ -4,7 +4,7 @@
 /*
  *  这里是多行注释
  *  clion 构建快捷键 ctrl + f9
- *        运行快借鉴 shift + f10
+ *        运行快捷键 shift + f10
  */
 #include<stdio.h> /* 这里好像缺少头文件哦*/
 
