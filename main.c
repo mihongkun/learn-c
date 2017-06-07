@@ -8,6 +8,8 @@
  */
 #include<stdio.h> /* 这里好像缺少头文件哦*/
 
+#define POCKETMONEY 10 //定义常量及常量值
+
 int main() { /*这里没有主函数名称的 -> 这里输入我们的主函数*/
     printf("Hello World!\n"); /*看下打印语句是否正确*/
     printf("C程序中一定是从我开始的\n");
@@ -50,6 +52,7 @@ int main() { /*这里没有主函数名称的 -> 这里输入我们的主函数*/
     printf("小明的身高%.2f%c\n",xHeight,xUnit);
     printf("小明现在在慕课网上学习IT技术\n");
 
+    printf("小明今天又得到了%d元零花钱\n",POCKETMONEY);
     return 0;
 
 }
